@@ -1,0 +1,28 @@
+{
+  "name": "rwdjs",
+  "version": "0.0.1",
+  "description": "Responsive Web Design for JS",
+  "main": "index.js",
+  "scripts": {
+    "docs-html": "documentation build src/** -f html -o docs && exit 0",
+    "docs-md": "documentation build src/** -f md -o docs/rwd.md && exit 0",
+    "view-docs": "documentation serve app.js && echo \"http://localhost:4001\" && exit 0",
+    "git": "git status && git add -A && git commit -m \"Auto Update \" && git status && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.comcast.com/aambro726/rwdjs.git"
+  },
+  "keywords": [
+    "RWD",
+    "JS",
+    "TWBS",
+    "Grid",
+    "Helper"
+  ],
+  "author": "Drew Ambrose",
+  "license": "MIT",
+  "devDependencies": {
+    "documentation": "^5.3.2"
+  }
+}
